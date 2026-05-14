@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-size: 10px;
 }
 html, body {
   background-color: black;
@@ -22,7 +23,7 @@ align-items: center;
 }
 .head{
     color:  white;
-    font-size: 95px;
+    font-size: 9em;
     font-style: italic;
     font-weight: bold;
     background: transparent;
@@ -40,6 +41,7 @@ align-items: center;
     flex-direction: column;
 }
 h1{
+    font-size: 4em;
     margin-top: 7px;
     background: transparent;
     margin-bottom: 0px;
@@ -77,10 +79,10 @@ h1{
 .con1 span{
     font-family: Arial, Helvetica, sans-serif;
     color: #FFFF33;
-    font-size:60px;
+    font-size:1.5em;
 }
 .con1 h3{
-    font-size: 50px;
+    font-size: 3.5em;
     background: transparent;
 }
 .con2{
@@ -94,7 +96,7 @@ h1{
 
 .con2 h3{
     width: 30vmax;
-    font-size: 50px;
+    font-size: 3.5em;
     background: transparent;
 }
 .reset{
@@ -114,6 +116,7 @@ h1{
     margin-left: 10vmin;
 }
 .mode p{
+    font-size: 1.3em;
     padding: 0;
     margin: 0;
 }
