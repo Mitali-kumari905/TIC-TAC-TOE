@@ -1,8 +1,9 @@
 *{
     box-sizing: border-box;
-    font-size: 10px;
+
 }
 html, body {
+        font-size: 10px;
   background-color: black;
   height: 100%;          
   width: 100%;
@@ -22,11 +23,13 @@ align-items: center;
 
 }
 .head{
+    margin-top: 10vmin;
     color:  white;
     font-size: 9em;
     font-style: italic;
     font-weight: bold;
     background: transparent;
+    margin-bottom: 0px;
 }
 .outarea{
     margin-top: -15vh;
@@ -40,9 +43,9 @@ align-items: center;
     color:  #FFFF33;
     flex-direction: column;
 }
-h1{
+.tit{
     font-size: 4em;
-    margin-top: 7px;
+    /* margin-top: 7px; */
     background: transparent;
     margin-bottom: 0px;
     text-align: center;
@@ -113,7 +116,6 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 10vmin;
 }
 .mode p{
     font-size: 1.3em;
@@ -153,6 +155,14 @@ h1{
     justify-content: space-between;
     align-items: flex-end;
     margin: 0.5vmin;
+    display: flex;
+    justify-content: space-between;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
 }
 .gif{
     visibility: hidden;
@@ -164,4 +174,11 @@ h1{
 z-index: 9999;
 width: 100%;
 height: 100%;
+}
+@media(min-width: 0px) and (max-width: 1260px){
+    *{
+        font-size: 5px;
+    }
+
+    
 }
