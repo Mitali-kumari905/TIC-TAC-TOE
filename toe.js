@@ -39,7 +39,7 @@ chMode.addEventListener("click",()=>{
                     el.style.color="white";
                 })
                         document.querySelector("body").style.boxShadow="inset 30px 0 50px rgba(0, 255, 255, 0.5),inset -30px 0 50px rgba(0, 255, 255, 0.5),inset 0 -20px 50px rgba(0, 255, 255, 0.5),inset 0 10px 30px rgba(0, 255, 255, 0.5)";
-                        chMode.style.left="0px";
+                        chMode.style.left="0%";
                 document.querySelector(".mode-area").style.backgroundColor="#FFFF33";
         document.querySelectorAll('.reset,span,.outarea').forEach(el=>{
             el.style.color="#FFFF33";
