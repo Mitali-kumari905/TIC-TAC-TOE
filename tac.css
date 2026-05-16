@@ -103,7 +103,7 @@ align-items: center;
 }
 .reset{
     color: #FFFF33;
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: bold;
     background-color: #00FFFF;
     /* height: 5vmin;
@@ -182,6 +182,7 @@ height: 100%;
     }  
     .con1{
         margin-left: 1px;
+        margin-top: 2vmin;
     }
     body{
         flex-direction: column;
