@@ -14,7 +14,7 @@ chMode.addEventListener("click",()=>{
 
 
         // chMode.classList.add("slide");
-        chMode.style.left="50px";
+        chMode.style.left="60%";
         document.querySelectorAll('.reset,span,.outarea').forEach(el=>{
             el.style.color="#00796B";
         })
