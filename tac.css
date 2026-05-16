@@ -17,7 +17,7 @@ inset -30px 0 50px rgba(0, 255, 255, 0.5),
 inset 0 -20px 50px rgba(0, 255, 255, 0.45),
 inset 0 10px 30px rgba(0, 255, 255, 0.25);
 display: flex;
-justify-content: space-around;
+justify-content: center;
 align-items: center;
 
 
@@ -52,18 +52,17 @@ align-items: center;
 }
 .box{
     display: flex;
-    width: 26vmax;
-    height: 26vmax;
+    width: 50vmin;
+    height: 50vmin;
     flex-wrap: wrap;
     background: transparent;
 }
 .inbox{
     border-radius: 1rem;
-    height: 8vmax;
-    width: 8vmax;
+    height: 32%;
+    width: 32%;
     background: linear-gradient(135deg, #00FFFF 0%, #E0FFFF 100%);
-    margin:2px;
-    font-size: 7vmax;
+    font-size: 7vmin;
     font-family:Arial, Helvetica, sans-serif;
     display: flex;
     text-align: center;
@@ -75,7 +74,7 @@ align-items: center;
 }
 .con1{
     width: 34vmax;
-    margin-left: 20vmin;
+    margin-left: 4vmin;
     background: transparent;
     color: #E0FFFF;
 }
@@ -104,12 +103,13 @@ align-items: center;
 }
 .reset{
     color: #FFFF33;
-    font-size: large;
+    font-size: 1.5em;
     font-weight: bold;
     background-color: #00FFFF;
-    height: 5vmin;
-    width: 10vmin;
-    border-radius: 1.5rem;
+    /* height: 5vmin;
+    width: 10vmin; */
+    padding: 0.8rem 1.5rem;
+    border-radius: 1rem;
 }
 .mode{
     font-size: large;
@@ -175,13 +175,18 @@ z-index: 9999;
 width: 100%;
 height: 100%;
 }
-@media(min-width: 687px) and (max-width: 1260px){
-    *{
-        font-size: 5px;
-    }  
-}
-@media(min-width: 0px) and (max-width: 686px){
+
+@media(max-width: 1084px){
     *{
         font-size: 3px;
     }  
+    .con1{
+        margin-left: 1px;
+    }
+    body{
+        flex-direction: column;
+    }
+    .mode-ball p{
+        font-size: 4px;
+    }
 }
